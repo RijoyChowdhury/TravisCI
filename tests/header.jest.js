@@ -11,7 +11,6 @@ beforeEach(async () => {
     args: ['--no-sandbox'],
   });
   page = await browser.newPage();
-  // page = new PageHelper.Facade();
   await page.goto('http://localhost:3000');
 });
 
